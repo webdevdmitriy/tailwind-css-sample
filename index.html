@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TailwindCSS</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="bg-mainColor text-white">
+    <header class="container mx-auto px-5 md:px-2">
+      <div class="flex justify-between pt-big">
+        <span class="font-bold text-3xl">Tailwind</span>
+
+        <ul class="flex gap-x-5">
+          <li>
+            <a href="" class="hover:underline">About</a>
+          </li>
+          <li>
+            <a href="" class="bg-red-500 py-2 px-5 rounded-full hover:bg-red-700 cursor-pointer">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="container mx-auto py-big px-3 sm:px-0">
+      <h1 class="text-center text-3xl font-bold">Tailwind CSS</h1>
+      <p class="pt-3 w-full sm:w-[450px] mx-auto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit accusamus alias similique delectus necessitatibus unde rem
+        voluptatibus inventore, nostrum a ab quidem, laboriosam, neque veritatis. Commodi, et quod minima debitis corrupti optio cum vero
+        facere fuga nihil ea, dolorum nostrum! Blanditiis voluptatem assumenda commodi aut. Veniam, temporibus voluptas! Vitae nihil
+      </p>
+      <div class="flex justify-center gap-x-5 pt-big space-x-0 md:space-x-10 flex-col md:flex-row space-y-5 md:space-y-0">
+        <div class="bg-red-500 py-2 px-5 rounded-full hover:bg-red-700 cursor-pointer">Button 1</div>
+        <div class="bg-red-500 py-2 px-5 rounded-full hover:bg-red-700 cursor-pointer">Button 2</div>
+        <div class="bg-red-500 py-2 px-5 rounded-full hover:bg-red-700 cursor-pointer">Button 3</div>
+        <div class="bg-red-500 py-2 px-5 rounded-full hover:bg-red-700 cursor-pointer">Button 4</div>
+      </div>
+    </main>
+
+    <div class="container mx-auto py-big grid grid-columns-4 grid-flow-col gap-4">
+      <div class="bg-purple-500 w-1/2 h-[100px]"></div>
+      <div class="bg-purple-500 w-3/5 h-[100px]"></div>
+    </div>
+  </body>
+</html>
